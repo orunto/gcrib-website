@@ -1,10 +1,10 @@
 # Gentlemen's Crib Website
-This is the official website of Gentlemen's Crib, a Nigerian male fashion company, and it is powered by <br/><br/>
+This is the official website of Gentlemen's Crib, a fashion company dedicated to helping the Nigerian man look his best daily, and it is powered by <br/><br/>
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
 
 ## Developers
 ### Front End
-[<Orunto Eniola>]<https://github.com/orunto>
+[<Orunto Eniola>](https://github.com/orunto)
 
 [Aniyikaye Olamide]<https://github.com/chayilDeborah>
 
