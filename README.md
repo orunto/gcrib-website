@@ -1,5 +1,6 @@
 # Gentlemen's Crib Website
-This is the <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> powered official website of Gentlemen's Crib a Nigerian male fashion company.
+This is the official website of Gentlemen's Crib, a Nigerian male fashion company, and it is powered by 
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
 
 ## Developers
 ### Front End
