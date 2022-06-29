@@ -4,7 +4,7 @@ This is the official website of Gentlemen's Crib, a Nigerian male fashion compan
 
 ## Developers
 ### Front End
-[Orunto Eniola]<https://github.com/orunto>
+[<Orunto Eniola>]<https://github.com/orunto>
 
 [Aniyikaye Olamide]<https://github.com/chayilDeborah>
 
