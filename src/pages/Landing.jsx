@@ -1,3 +1,5 @@
+import { Header, ForMen, Simple, Dressed, Socials, OurApp, Footer} from '../containers'
+
 const Landing = () => {
     return(
         <div>
