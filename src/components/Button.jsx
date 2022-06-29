@@ -2,7 +2,7 @@ function Button (props) {
     return(
         <div className="Button"> 
             {props.children} 
-            <img src="/images/Mouse.svg"></img>
+            <img alt="" src="./src/images/Mouse.svg"></img>
         </div>
     );
 }
