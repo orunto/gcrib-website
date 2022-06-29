@@ -1,38 +1,3 @@
-@font-face {
-    font-family: 'Rische';
-    font-weight: bolder;
-    src: url('/assets/Rische\ Bold.otf');
-}
-
-@font-face {
-    font-family: 'Rische';
-    font-weight: lighter;
-    src: url('/assets/Rische\ Light.otf');
-}
-
-@font-face {
-    font-family: 'Rische';
-    font-weight: normal;
-    src: url('/assets/Rische\ Regular.otf');
-}
-
-@font-face {
-    font-family: 'Rische';
-    font-weight: 500;
-    src: url('/assets/Rische\ Medium.otf');
-}
-
-@font-face {
-    font-family: 'Rische';
-    font-weight: bold;
-    src: url('/assets/Rische\ Semibold.otf');
-}
-
-body {
-    padding: 0;
-    margin: 0;
-}
-
 footer a{
     color: inherit;
 }

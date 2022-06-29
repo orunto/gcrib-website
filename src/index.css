@@ -1,13 +1,39 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+@font-face {
+  font-family: 'Rische';
+  font-weight: bolder;
+  src: url('/assets/Rische\ Bold.otf');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Rische';
+  font-weight: lighter;
+  src: url('/assets/Rische\ Light.otf');
+}
+
+@font-face {
+  font-family: 'Rische';
+  font-weight: normal;
+  src: url('/assets/Rische\ Regular.otf');
+}
+
+@font-face {
+  font-family: 'Rische';
+  font-weight: 500;
+  src: url('/assets/Rische\ Medium.otf');
+}
+
+@font-face {
+  font-family: 'Rische';
+  font-weight: bold;
+  src: url('/assets/Rische\ Semibold.otf');
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Rische', 'Sora';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
