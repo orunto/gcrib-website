@@ -1,3 +1,5 @@
+import { Cards, Button } from '../components';
+
 function Simple () {
     return (
         <section className="Simple">
