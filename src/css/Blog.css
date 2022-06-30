@@ -1,42 +1,8 @@
-@font-face {
-    font-family: 'Rische';
-    font-weight: bolder;
-    src: url('/assets/Rische\ Bold.otf');
-}
-
-@font-face {
-    font-family: 'Rische';
-    font-weight: lighter;
-    src: url('/assets/Rische\ Light.otf');
-}
-
-@font-face {
-    font-family: 'Rische';
-    font-weight: normal;
-    src: url('/assets/Rische\ Regular.otf');
-}
-
-@font-face {
-    font-family: 'Rische';
-    font-weight: 500;
-    src: url('/assets/Rische\ Medium.otf');
-}
-
-@font-face {
-    font-family: 'Rische';
-    font-weight: bold;
-    src: url('/assets/Rische\ Semibold.otf');
-}
-
 #root {
     overflow: hidden;
 }
-body {
-    padding: 0;
-    margin: 0;
-}
 
-h1 {
+h4 {
     position: absolute;
     top: 232px;
     left: 0;
@@ -262,7 +228,7 @@ h3 {
     left: 0;
     width: 100%;
     height: 800px;
-    background: url('/images/Readoftheday.png');
+    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/Readoftheday.png');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -312,7 +278,7 @@ h3 {
     right: 0;
     top: 700px;
 
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/casual.png');
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/casual.png');
     border-radius: 30px 0px 0px 0px;
 }
 
@@ -360,7 +326,7 @@ h3 {
 }
 
 #art1 .ArticleImg {
-    background: url('/images/posts2.png');
+    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/posts2.png');
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -414,7 +380,7 @@ h3 {
 }
 
 #art2 .ArticleImg{
-    background: url('/images/posts1.png');
+    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/posts1.png');
     background-size: 100%;
     background-position: center;
     transition: 0.3s;
@@ -428,7 +394,7 @@ h3 {
 }
 
 #art3 .ArticleImg {
-    background: url('/images/posts4.png');
+    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/posts4.png');
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -445,25 +411,32 @@ h3 {
     background-repeat: no-repeat;
 }
 
-#outfitheader {
-    background: url('/images/outfitheader.png');
-}
-
-#fridayheader {
-    background: url('/images/fridayheader.png');
-}
-
-#sneakersheader {
-    background: url('/images/sneakersheader.png');
+#casual .PostPhoto {
+    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/casual.png');
+    
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-#versatileheader {
-    background: url('/images/versatileheader.png');
+#outfit .PostPhoto {
+    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/outfitheader.png');
 }
 
-.ReadBody h1 {
+#friday .PostPhoto {
+    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/fridayheader.png');
+}
+
+#sneakers .PostPhoto {
+    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/sneakersheader.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#versatile .PostPhoto {
+    background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/versatileheader.png');
+}
+
+.ReadBody h4 {
     position: absolute;
     top: 250px;
     left: 50px;
@@ -484,11 +457,11 @@ h3 {
     font-family: 'Montserrat';
 }
 
-#sneakerspan {
+#sneakers span {
     top: 422px;
 }
 
-#versatilespan {
+#versatile span {
     top: 422px;
 }
 
@@ -503,21 +476,24 @@ h3 {
     font-weight: 300;
 }
 
-#fridayfooter {
-    top: 3000px;
+#friday footer {
+    top: 3000px !important;
 }
 
-#sneakersfooter {
-    top: 3500px;
+#sneakers footer {
+    top: 3500px !important;
 }
 
-#versatilefooter {
-    top: 4000px;
+#versatile footer {
+    top: 4000px !important;
 }
 
+#casual footer {
+    top: 2600px !important;
+}
 footer {
     position: absolute;
-    top: 2100px;
+    top: 2100px !important;
     left: 0;
     width: 100%;
     height: 100px;
@@ -683,7 +659,7 @@ footer {
         display: none;
     }
     
-    h1 {
+    h4 {
         position: absolute;
         top: 232px;
         left: 0;
@@ -698,7 +674,7 @@ footer {
 
     footer {
         position: absolute;
-        top: 2100px;
+        top: 2100px !important;
         left: 0;
         width: 100%;
         height: 100px;
@@ -863,7 +839,7 @@ footer {
         display: none;
     }
     
-    h1 {
+    h4 {
         position: absolute;
         top: 232px;
         left: 0;
@@ -878,7 +854,7 @@ footer {
 
     footer {
         position: absolute;
-        top: 2100px;
+        top: 2100px !important;
         left: 0;
         width: 100%;
         height: 100px;
@@ -1101,7 +1077,7 @@ footer {
         display: none;
     }
     
-    h1 {
+    h4 {
         position: absolute;
         top: 232px;
         left: 0;
@@ -1124,7 +1100,7 @@ footer {
         left: 0;
         width: 100%;
         height: 800px;
-        background: url('/images/Readoftheday.png');
+        background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/Readoftheday.png');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -1176,7 +1152,7 @@ footer {
         left: 94px;
         top: 650px;
 
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/casual.png');
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/casual.png');
         border-radius: 15px 0px 0px 0px;
     }
 
@@ -1224,7 +1200,7 @@ footer {
     }
 
     #art1 .ArticleImg {
-        background: url('/images/posts2.png');
+        background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/posts2.png');
         background-size: 100%;
         background-position: center;
         background-repeat: no-repeat;
@@ -1277,7 +1253,7 @@ footer {
     }
 
     #art2 .ArticleImg{
-        background: url('/images/posts1.png');
+        background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/posts1.png');
         background-size: 100%;
         background-position: center;
         transition: 0.3s;
@@ -1291,7 +1267,7 @@ footer {
     }
 
     #art3 .ArticleImg {
-        background: url('/images/posts4.png');
+        background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/posts4.png');
         background-size: 100%;
         background-position: center;
         background-repeat: no-repeat;
@@ -1309,29 +1285,29 @@ footer {
         background-repeat: no-repeat;
     }
     
-    #casualheader {
-        background: url('/images/casualheadermobile.png');
+    #casual .PostPhoto {
+        background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/casualheadermobile.png');
     }
 
-    #outfitheader {
-        background: url('/images/outfitheadermobile.png');
+    #outfit .PostPhoto {
+        background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/outfitheadermobile.png');
     }
     
-    #fridayheader {
-        background: url('/images/fridayheadermobile.png');
+    #friday .PostPhoto {
+        background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/fridayheadermobile.png');
     }
     
-    #sneakersheader {
-        background: url('/images/sneakersheadermobile.png');
+    #sneakers .PostPhoto {
+        background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/sneakersheadermobile.png');
         background-size: cover;
         background-repeat: no-repeat;
     }
 
-    #versatileheader {
-        background: url('/images/versatileheadermobile.png');
+    #versatile .PostPhoto {
+        background: url('https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/versatileheadermobile.png');
     }
     
-    .ReadBody h1 {
+    .ReadBody h4 {
         position: absolute;
         top: 100px;
         left: 30px;
@@ -1341,7 +1317,7 @@ footer {
         z-index: 2;
     }
 
-    #sneak {
+    #sneakers h4 {
         font-size: 35px;
     }
     
@@ -1356,11 +1332,11 @@ footer {
         font-family: 'Montserrat';
     }
     
-    #sneakerspan {
+    #sneakers span {
         top: 350px;
     }
     
-    #versatilespan {
+    #versatile span {
         top: 400px;
     }
     
@@ -1375,21 +1351,25 @@ footer {
         font-weight: 300;
     }
     
-    #fridayfooter {
-        top: 4000px;
+    #friday footer {
+        top: 4000px !important;
     }
     
-    #sneakersfooter {
-        top: 4500px;
+    #casual footer {
+        top: 4000px !important;
+    }
+
+    #sneakers footer {
+        top: 4500px !important;
     }
     
-    #versatilefooter {
-        top: 6000px;
+    #versatile footer {
+        top: 6000px !important;
     }
 
     footer {
         position: absolute;
-        top: 3100px;
+        top: 3100px !important;
         left: 0;
         width: 100%;
         height: 100px;
